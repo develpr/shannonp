@@ -54,11 +54,17 @@
 
 <br />
 
-<section class='main' role='main'>
+<section class='main' role='main' id="root">
 
 	@yield('content')
 
-	<footer></footer>
+	<footer id="footer" class="row">
+
+			<div class="columns large-12 small-12" id="footer-contents">
+				&copy; Shannon Pearce Designs 2013
+			</div>
+
+	</footer>
 	<script type='text/javascript'>
 		//<![CDATA[
 		document.write('<script src=/javascripts/vendor/'
