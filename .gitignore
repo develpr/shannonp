@@ -6,14 +6,25 @@
 
 # Ignore bundler config
 /.bundle
+middleman/.bundle
 
 # Ignore the build directory
 /build
+/middleman/build
+*.idea
 
 # Ignore Sass' cache
 /.sass-cache
+/middleman/.sass-cache
 
 .rvmrc
+/middleman/.rvmrc
+
 
 # IDE Specific ignores
 .idea
+/bootstrap/compiled.php
+/vendor
+composer.phar
+composer.lock
+.DS_Store
