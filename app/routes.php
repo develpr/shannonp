@@ -12,3 +12,10 @@
 */
 
 Route::get('/', 'HomeController@home');
+
+Route::get('/contact', 'HomeController@showContact');
+
+Route::get('/vintage-collection', 'HomeController@showVintage');
+Route::get('/cottage-collection', 'HomeController@showCottage');
+Route::get('/whimsy-collection', 'HomeController@showWhimsy');
+
